@@ -1,0 +1,19 @@
+{
+
+    "manifest_version": 3,
+    "name": "MicroHub - Wersja Chrome",
+    "version": "1.0",
+  
+    "description": "Dostęp do każdej mikronacji w kilka sekund",
+  
+    "icons": {
+      "48": "icons/icon.png"
+    },
+  
+    "action": {
+        "default_icon": "icons/icon.png",
+        "default_title": "MicroHub",
+        "default_popup": "popup/popup.html"
+      }
+  }
+  
