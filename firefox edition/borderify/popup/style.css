@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.logo {
+    height: 5vh;
+    text-align: center;
+    font-family: Karla;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.tytul {
+    text-align: justify;
+    text-align-last: center;
+    font-family: Quicksand;
+    color: darkgrey;
+    font-size: 20px;
+}
+
+.ks {
+    display: flex;
+    margin: auto;
+}
+
+.kstyt {
+    text-align: justify;
+    text-align-last: center;
+    font-family: Roboto Condensed;
+    color: white;
+    font-size: 20px;
+}
+
+.podpis {
+    text-align: justify;
+    text-align-last: center;
+    font-family: Poppins;
+    color: darkgray;
+    font-size: 12px;
+
+}
+
+body {
+    overflow-x: hidden
+}
+
+body {
+    min-width: 400px;
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+    background-color: rgb(24, 24, 24);
+}
+
+nav {
+    height: 5vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    letter-spacing: 0,5px;
+    color: rgb(121, 121, 121);
+}
+
+a:hover {
+    color: rgb(65, 65, 65);
+}
